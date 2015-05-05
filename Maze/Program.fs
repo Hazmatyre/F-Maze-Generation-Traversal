@@ -1,9 +1,7 @@
-﻿// Learn more about F# at http://fsharp.net
-// See the 'F# Tutorial' project for more help.
-#light
+﻿#light
 open System
      
-//Coordinates blocked by metal sheets, edit accordingly.
+//Coordinates untraversable, edit accordingly.
 let sheets = [(0,0);(1,0);(2,0);(3,0);(4,0);(5,0);(6,0);
                 (0,1);(1,1);(2,1);(3,1);(4,1);(5,1);(6,1);
                 (0,2);(1,2);
